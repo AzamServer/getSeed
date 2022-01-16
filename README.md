@@ -14,7 +14,7 @@ ___
 Patch Notes:
 
 - Version 1.0
-  - 15th january 2021
+  - 15th January 2021
   - Features:
     - Allow plugin to respond with correct seed upon player issued command
     - Allow plugins to add and recongize new perms
