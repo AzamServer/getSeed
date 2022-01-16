@@ -1,8 +1,13 @@
 **getSeed**
 =============
-The purpose of this Spigot plugin is for OPs or players with the correct perms to get the seed for their current world in a more colorful way. Additionally, this plugin is multi-world compatible. If a player issues the command "/seed", this plugin will return the seed of the current world they are in, not the default world's seed. If two players are in two different worlds that have two different seeds, each player issusing the command, assuming they do have the permissions or are OP, will receive the world seed respective to the world they each are in.
+The purpose of this Spigot plugin is for OPs or players with the correct perms to get the seed for their current world in a more colorful way. Additionally, this plugin is multi-world compatible. If a player issues the command "/seed", this plugin will return the seed of the current world they are in, not the default world's seed. If two players are in two different worlds that have two different seeds, each player issuing the command, assuming they do have the permissions or are OP, will receive the world seed respective to the world they each are in.
 ___
-
+Commands:
+- /seed
+  - Provides the player with the seed of the world they are currently in
+- /seed help
+  - Provides the player with a help menu
+___
 Permissions:
 - seed.*
   - Allow plugin to respond with correct seed upon player issued command and issue a help menu when needed
