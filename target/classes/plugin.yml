@@ -1,0 +1,18 @@
+name: GetSeed
+version: '1.0'
+main: com.azamserver.getseed.Main
+api-version: 1.18
+authors: [ Ali ]
+description: Adds the /seed command, and allows it to be used by other players if they have perms
+website: https://card.azamserver.com/
+commands:
+  seed:
+    description: Will output the seed of the world a player is currently in if they perms to do so
+    usage: For help, please issue the command "/seed help"
+permissions:
+  seed.*:
+    description: Gives access to /seed command
+    default: op
+    children:
+      seed.getSeed: true
+      seed.helpMenu: true
