@@ -2,7 +2,7 @@
 /*
 File Name: Main.java
 Part of package: com.azamserver.getseed
-Description: This file is the root of the plugin and teels the plugins what to do on enabling and disabling
+Description: This file is the root of the plugin and tells the plugins what to do on enabling and disabling
 */
 
 // Declare package name
