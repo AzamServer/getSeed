@@ -18,7 +18,8 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 
 // Start java class
-public class Seed implements CommandExecutor {
+public class Seed implements CommandExecutor
+{
 
     // Declare all needed variables
     private final Main main;

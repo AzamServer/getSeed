@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.azamserver</groupId>
-    <artifactId>XPTransfer</artifactId>
+    <artifactId>getseed</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>XPTransfer</name>
+    <name>GetSeed</name>
 
-    <description>Allow players to transfer their levels to a different player</description>
+    <description>Adds the /seed command, and allows it to be used by other players if they have perms</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
